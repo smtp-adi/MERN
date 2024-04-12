@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/page.html">
+        <label for="fname"> First name: </label>
+        <input type="text" id="fname" name="fname">
+        <br>
+        <br>
+
+        <label for="lname"> Last name: </label>
+        <input type="text" id=  "lname" name="lname">
+
+        <p>Choose your fav language:</p>
+        <!--name give to each input so that it tells selct one of 3 options-->
+        <input type="radio" name="fav" id="html">
+        <label for="html">HTML</label>
+        <br>
+        <input type="radio" name="fav" id="css">
+        <label for="css">CSS</label>
+        <br>
+        <input type="radio" name="fav" id="js">
+        <label for="js">JS</label>
+        <br>
+
+        <p>Choose fav anime(one or more):</p>
+        <input type="checkbox" id="ds" name="animes">
+        <label for="ds">Demon slayer</label>
+        <br>
+        <input type="checkbox" id="aot" name="animes"> 
+        <label for="aot">Attack of Titans</label>
+        <br>
+        <input type="checkbox" id="opm" name="animes"> 
+        <label for="opm">One Punch Man</label>
+        <br>
+        <input type="submit" value="Submit"><!--put action in form tag on submit-->
+        <br>
+        <br>
+        <label>Select a car:</label>
+            <select>
+                <!--adding value is a good practice-->
+                <option value="mercedes">Mercedes</option>
+                <option>Volvo</option>
+                <option>Audi</option>
+            </select>
+    </form>
+</body>
+</html>
