@@ -1,0 +1,16 @@
+h1{
+    background-color: red;
+    color: white;
+}
+.hello-class{
+    border: 2px solid black;
+}
+.hello{
+    border: 2px solid green;
+}
+#hello{
+    border: 2px solid darkgreen;
+}
+#hello-id{
+    border: 10px solid blue;
+}
