@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <!--Universal selectors, defined with * and placed at top-->
+    <style>
+        
+        *{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .para-1{
+            color:red;
+            background-color: aquamarine;
+        }
+        #para-2{
+            background-color: aqua;
+        }
+        h1,h2{
+            color: chartreuse;
+        }
+    </style>
+</head>
+<body>
+    <!--id (unique, used for specific elem) vs class (can be applied to many elements with same styling)-->
+    <p class="para-1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero provident error labore nesciunt veniam aut autem cumque deleniti! Quibusdam, fuga!</p>
+    <p id="para-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, quasi!</p>
+
+    <p class="para-1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla maxime incidunt voluptatum dolore voluptate dolorum repellat doloremque nobis facere id.</p>
+
+    <!--Grouping of selectors-->
+    <h1>Hello World!</h1>
+    <h2>Its a beautiful day</h2>
+</body>
+</html>
